@@ -1,16 +1,37 @@
 [
   {
+    "objectID": "test2.html",
+    "href": "test2.html",
+    "title": "test2",
+    "section": "",
+    "text": "add text here"
+  },
+  {
+    "objectID": "test2.html#tutorial-2",
+    "href": "test2.html#tutorial-2",
+    "title": "test2",
+    "section": "",
+    "text": "add text here"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "website1",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2\n\n#this is index page 1?"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "test1.html",
+    "href": "test1.html",
+    "title": "test1",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "add text here"
+  },
+  {
+    "objectID": "test1.html#tutorial-1",
+    "href": "test1.html#tutorial-1",
+    "title": "test1",
+    "section": "",
+    "text": "add text here"
   }
 ]

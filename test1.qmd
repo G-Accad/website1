@@ -1,0 +1,30 @@
+---
+title: "test1"
+format: live-html
+editor: visual
+---
+
+## Tutorial 1
+
+add text here 
+
+```{webr}
+for (x in 1:5) {
+  print(x * 2)
+}
+```
+
+```{pyodide}
+for x in range(5):
+  print(x * 2)
+```
+
+```{webr}
+#| edit: false
+#| autorun: true
+#| runbutton: false
+df <- data.frame(foo = c(1, 2, 3), bar = c(10, 20, 30))
+df$foo
+df$bar
+
+```
