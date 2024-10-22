@@ -1,5 +1,6 @@
 ---
 title: "Homepage"
+format: live-html  
 ---
 
 # Welcome to the Bioinformatics-Related Computing Course

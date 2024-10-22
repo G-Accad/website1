@@ -1,6 +1,6 @@
 ---
 title: "Introduction to R and Python"
-format: html  # Use standard HTML instead of live-html for better compatibility
+format: live-html  
 editor: visual
 description: >
   Learn how to set up R and RStudio on your machine. We will also demonstrate
