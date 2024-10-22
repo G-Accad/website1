@@ -1,19 +1,30 @@
 project:
   type: website
   output-dir: docs
+
 website:
-  title: "website1"
+  title: "Computing Course"  # Title of the website
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - test1.qmd
+      - href: chapters/chapter1.qmd
+        text: "Introduction to R and Python"
+      - href: chapters/chapter2.qmd
+        text: "Data Structures"
+      - href: chapters/chapter3.qmd
+        text: "Functions and Packages"
+      - href: chapters/chapter4.qmd
+        text: "Fundamentals of Statistics"
+      - href: chapters/chapter5.qmd
+        text: "Data Visualisation"
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
-    toc: true
+    theme: cosmo  # Theme of the website
+    css: styles.css  # Custom CSS file
+    toc: true  # Table of contents enabled
+    toc-location: left  # Table of contents placed on the left side
+    toc-depth: 2  # Show up to 2 levels in the outline (H1 and H2)
 
 editor: visual
-

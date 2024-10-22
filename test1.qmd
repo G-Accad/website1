@@ -4,21 +4,6 @@ format: live-html
 editor: visual
 ---
 
-## Tutorial 1
-
-add text here 
-
-```{webr}
-for (x in 1:5) {
-  print(x * 2)
-}
-```
-
-```{pyodide}
-for x in range(5):
-  print(x * 2)
-```
-
 ```{webr}
 #| edit: false
 #| autorun: true
@@ -28,3 +13,5 @@ df$foo
 df$bar
 
 ```
+
+

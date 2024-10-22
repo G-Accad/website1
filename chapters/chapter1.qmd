@@ -1,0 +1,14 @@
+---
+title: "Introduction to R and Python"
+format: html  # Use standard HTML instead of live-html for better compatibility
+editor: visual
+description: >
+  Learn how to set up R and RStudio on your machine. We will also demonstrate
+  how to install R packages from CRAN, and install the tidyverse package.
+toc: true  # Enable table of contents
+---
+
+
+## Welcome
+
+This is a demo tutorial. Compare it to the [source code](https://github.com/rstudio/learnr/tree/main/inst/tutorials/ex-setup-r/ex-setup-r.Rmd) that made it.

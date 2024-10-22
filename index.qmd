@@ -1,12 +1,41 @@
 ---
-title: "website1"
+title: "Homepage"
 ---
 
-This is a Quarto website.
+# Welcome to the Bioinformatics-Related Computing Course
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+This course will introduce you to programming in R and Python, specifically tailored for medical and genomics research. By the end of this course, you will be comfortable handling data, performing statistical analysis, and visualising results.
 
-```{r}
-1 + 1
-#this is index page 1?
+## Sessions Overview
+
+1.  [Session 1: Introduction to R, Python, and Programming](chapter1.qmd)
+2.  [Session 2: Functions, Packages, and Visualisation](chapter2.qmd)
+
+## Introduction
+
+In the following course you will learn both R and python. We have created this course in a website so you can see the material and run the code at the same time, sometime you will be able to make changes to the code and see the changes when you run it. Here are two examples of how you will see the code: press on the run button (that looks like play), then make some changes to the code for example replace the 2 by 3 and run the code again.
+
+```{webr}
+for (x in 1:5) {
+  print(x * 2)
+}
 ```
+
+```{pyodide}
+for x in range(5):
+  print(x * 2)
+```
+
+## Schedule
+
+-   23/10/2024: 9 am - 12 pm Grace Accad and Norbert Gyenge
+
+-   30/10/2024: 9 am - 12 pm Grace Accad and Norbert Gyenge
+
+-   22/01/2025: 9 am - 12 pm Mark Dunning
+
+-   29/01/2025: 9 am - 12 pm Mark Dunning
+
+-   05/02/2025: 9 am - 12 pm Grace Accad and Norbert Gyenge
+
+-   12/02/2025: 9 am - 12 pm Grace Accad and Norbert Gyenge

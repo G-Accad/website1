@@ -1,0 +1,12 @@
+{
+  "hash": "f16b7ee2a40f75daeaa1f73cfdccc39c",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Introduction to R and Python\"\nformat: live-html\neditor: visual\n---\n\n## Introduction\n\nIn the following course you will learn both R and python. We have created this course in a website so you can see the material and run the code at the same time, sometime you will be able to make changes to the code and see the changes when you run it. Here are two examples of how you will see the code: press on the run button (that looks like play), then make some changes to the code for example replace the 2 by 3 and run the code again.  \n\n\n\n```{webr}\nfor (x in 1:5) {\n  print(x * 2)\n}\n```\n\n```{pyodide}\nfor x in range(5):\n  print(x * 2)\n```\n\n",
+    "supporting": [
+      "chapter1_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}
