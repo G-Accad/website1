@@ -12,3 +12,15 @@ toc: true  # Enable table of contents
 ## Welcome
 
 This is a demo tutorial. Compare it to the [source code](https://github.com/rstudio/learnr/tree/main/inst/tutorials/ex-setup-r/ex-setup-r.Rmd) that made it.
+
+
+```{webr}
+for (x in 1:5) {
+  print(x * 2)
+}
+```
+
+```{pyodide}
+for x in range(5):
+  print(x * 2)
+```
