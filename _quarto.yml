@@ -10,14 +10,8 @@ website:
         text: Home
       - href: chapters/chapter1.qmd
         text: "Introduction to R and Python"
-      - href: chapters/chapter2.qmd
-        text: "Data Structures"
-      - href: chapters/chapter3.qmd
-        text: "Functions and Packages"
-      - href: chapters/chapter4.qmd
-        text: "Fundamentals of Statistics"
-      - href: chapters/chapter5.qmd
-        text: "Data Visualisation"
+      - href: chapters/chapter2.rmd
+        text: "Setting up"
 
 format:
   html:

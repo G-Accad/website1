@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Learn how to set up R and RStudio on your machine. We will also demonstrate how to install R packages from CRAN, and install the tidyverse package.">
 
-<title>Computing Course</title>
+<title>Computing Course - Set Up</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -97,20 +98,8 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Introduction to R and Python</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../chapters/chapter2.html" aria-current="page"> 
-<span class="menu-text">Data Structures</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../chapters/chapter3.html"> 
-<span class="menu-text">Functions and Packages</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../chapters/chapter4.html"> 
-<span class="menu-text">Fundamentals of Statistics</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../chapters/chapter5.html"> 
-<span class="menu-text">Data Visualisation</span></a>
+    <a class="nav-link" href="../chapters/chapter2.rmd"> 
+<span class="menu-text">Setting up</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -123,7 +112,16 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">Welcome</a></li>
+  <li><a href="#install-r" id="toc-install-r" class="nav-link" data-scroll-target="#install-r">Install R</a></li>
+  <li><a href="#install-rstudio" id="toc-install-rstudio" class="nav-link" data-scroll-target="#install-rstudio">Install RStudio</a></li>
+  <li><a href="#install-packages" id="toc-install-packages" class="nav-link" data-scroll-target="#install-packages">Install Packages</a></li>
+  </ul>
+</nav>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
@@ -132,11 +130,593 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Set Up</h1>
+</div>
+
+<div>
+  <div class="description">
+    <p>Learn how to set up R and RStudio on your machine. We will also demonstrate how to install R packages from CRAN, and install the tidyverse package.</p>
+  </div>
+</div>
 
 
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
 
 
+</header>
 
+
+<section id="welcome" class="level2">
+<h2 class="anchored" data-anchor-id="welcome">Welcome</h2>
+<p>This is a demo tutorial. Compare it to the <a href="https://github.com/rstudio/learnr/tree/main/inst/tutorials/ex-setup-r/ex-setup-r.Rmd">source code</a> that made it.</p>
+<section id="outline" class="level3">
+<h3 class="anchored" data-anchor-id="outline">Outline</h3>
+<p>This tutorial will help you set up your computer to use R. It is for you if you need to:</p>
+<ul>
+<li>Install R on your computer</li>
+<li>Install the RStudio IDE</li>
+<li>Install the <code>tidyverse</code> R package</li>
+</ul>
+<p>You can skip this tutorial if you’ve already done these things.</p>
+</section>
+<section id="is-this-tutorial-for-you" class="level3">
+<h3 class="anchored" data-anchor-id="is-this-tutorial-for-you">Is this tutorial for you?</h3>
+<p>Do you need to work through the tutorial? Take the quiz below to find out.</p>
+<div class="cell">
+<div class="cell-output-display no-overflow-x">
+<div class="panel panel-default tutorial-question-container">
+<div data-label="quiz1" class="tutorial-question panel-body">
+<div id="quiz1-answer_container" class="shiny-html-output"></div>
+<div id="quiz1-message_container" class="shiny-html-output"></div>
+<div id="quiz1-action_button_container" class="shiny-html-output"></div>
+<script>if (Tutorial.triggerMathJax) Tutorial.triggerMathJax()</script>
+</div>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="install-r" class="level2">
+<h2 class="anchored" data-anchor-id="install-r">Install R</h2>
+<section id="how-to-install-r" class="level3">
+<h3 class="anchored" data-anchor-id="how-to-install-r">How to install R</h3>
+<p><img src="https://vimeo.com/203516510.png" class="img-fluid"></p>
+</section>
+<section id="test-your-knowledge" class="level3">
+<h3 class="anchored" data-anchor-id="test-your-knowledge">Test your knowledge</h3>
+<div class="cell">
+<div class="cell-output-display">
+<div class="panel-heading tutorial-quiz-title">Quiz - Install R</div>
+</div>
+<div class="cell-output-display no-overflow-x">
+<div class="panel panel-default tutorial-question-container">
+<div data-label="quiz2-1" class="tutorial-question panel-body">
+<div id="quiz2-1-answer_container" class="shiny-html-output"></div>
+<div id="quiz2-1-message_container" class="shiny-html-output"></div>
+<div id="quiz2-1-action_button_container" class="shiny-html-output"></div>
+<script>if (Tutorial.triggerMathJax) Tutorial.triggerMathJax()</script>
+</div>
+</div>
+</div>
+<div class="cell-output-display no-overflow-x">
+<div class="panel panel-default tutorial-question-container">
+<div data-label="quiz2-2" class="tutorial-question panel-body">
+<div id="quiz2-2-answer_container" class="shiny-html-output"></div>
+<div id="quiz2-2-message_container" class="shiny-html-output"></div>
+<div id="quiz2-2-action_button_container" class="shiny-html-output"></div>
+<script>if (Tutorial.triggerMathJax) Tutorial.triggerMathJax()</script>
+</div>
+</div>
+</div>
+<div class="cell-output-display no-overflow-x">
+<div class="panel panel-default tutorial-question-container">
+<div data-label="quiz2-3" class="tutorial-question panel-body">
+<div id="quiz2-3-answer_container" class="shiny-html-output"></div>
+<div id="quiz2-3-message_container" class="shiny-html-output"></div>
+<div id="quiz2-3-action_button_container" class="shiny-html-output"></div>
+<script>if (Tutorial.triggerMathJax) Tutorial.triggerMathJax()</script>
+</div>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="install-rstudio" class="level2">
+<h2 class="anchored" data-anchor-id="install-rstudio">Install RStudio</h2>
+<section id="how-to-install-rstudio" class="level3">
+<h3 class="anchored" data-anchor-id="how-to-install-rstudio">How to install RStudio</h3>
+<p>RStudio is an Integrated Development Environment for R. What does that mean? Well, if you think of R as a language, which it is, you can think of RStudio as a program that helps you write and work in the language. RStudio makes programming in R much easier and I suggest that you use it!</p>
+<p><img src="https://vimeo.com/203516968.png" class="img-fluid"></p>
+</section>
+<section id="test-your-knowledge-1" class="level3">
+<h3 class="anchored" data-anchor-id="test-your-knowledge-1">Test your knowledge</h3>
+<div class="cell">
+<div class="cell-output-display">
+<div class="panel-heading tutorial-quiz-title">Quiz - Install RStudio</div>
+</div>
+<div class="cell-output-display no-overflow-x">
+<div class="panel panel-default tutorial-question-container">
+<div data-label="quiz3-1" class="tutorial-question panel-body">
+<div id="quiz3-1-answer_container" class="shiny-html-output"></div>
+<div id="quiz3-1-message_container" class="shiny-html-output"></div>
+<div id="quiz3-1-action_button_container" class="shiny-html-output"></div>
+<script>if (Tutorial.triggerMathJax) Tutorial.triggerMathJax()</script>
+</div>
+</div>
+</div>
+<div class="cell-output-display no-overflow-x">
+<div class="panel panel-default tutorial-question-container">
+<div data-label="quiz3-2" class="tutorial-question panel-body">
+<div id="quiz3-2-answer_container" class="shiny-html-output"></div>
+<div id="quiz3-2-message_container" class="shiny-html-output"></div>
+<div id="quiz3-2-action_button_container" class="shiny-html-output"></div>
+<script>if (Tutorial.triggerMathJax) Tutorial.triggerMathJax()</script>
+</div>
+</div>
+</div>
+<div class="cell-output-display no-overflow-x">
+<div class="panel panel-default tutorial-question-container">
+<div data-label="quiz3-3" class="tutorial-question panel-body">
+<div id="quiz3-3-answer_container" class="shiny-html-output"></div>
+<div id="quiz3-3-message_container" class="shiny-html-output"></div>
+<div id="quiz3-3-action_button_container" class="shiny-html-output"></div>
+<script>if (Tutorial.triggerMathJax) Tutorial.triggerMathJax()</script>
+</div>
+</div>
+</div>
+<div class="cell-output-display no-overflow-x">
+<div class="panel panel-default tutorial-question-container">
+<div data-label="quiz3-4" class="tutorial-question panel-body">
+<div id="quiz3-4-answer_container" class="shiny-html-output"></div>
+<div id="quiz3-4-message_container" class="shiny-html-output"></div>
+<div id="quiz3-4-action_button_container" class="shiny-html-output"></div>
+<script>if (Tutorial.triggerMathJax) Tutorial.triggerMathJax()</script>
+</div>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="install-packages" class="level2">
+<h2 class="anchored" data-anchor-id="install-packages">Install Packages</h2>
+<section id="how-to-install-r-packages" class="level3">
+<h3 class="anchored" data-anchor-id="how-to-install-r-packages">How to install R packages</h3>
+<p><img src="https://vimeo.com/203516241.png" class="img-fluid"></p>
+</section>
+<section id="test-your-knowledge-2" class="level3">
+<h3 class="anchored" data-anchor-id="test-your-knowledge-2">Test your knowledge</h3>
+<div class="cell">
+<div class="cell-output-display">
+<div class="panel-heading tutorial-quiz-title">Quiz - Working with Packages</div>
+</div>
+<div class="cell-output-display no-overflow-x">
+<div class="panel panel-default tutorial-question-container">
+<div data-label="names-1" class="tutorial-question panel-body">
+<div id="names-1-answer_container" class="shiny-html-output"></div>
+<div id="names-1-message_container" class="shiny-html-output"></div>
+<div id="names-1-action_button_container" class="shiny-html-output"></div>
+<script>if (Tutorial.triggerMathJax) Tutorial.triggerMathJax()</script>
+</div>
+</div>
+</div>
+<div class="cell-output-display no-overflow-x">
+<div class="panel panel-default tutorial-question-container">
+<div data-label="names-2" class="tutorial-question panel-body">
+<div id="names-2-answer_container" class="shiny-html-output"></div>
+<div id="names-2-message_container" class="shiny-html-output"></div>
+<div id="names-2-action_button_container" class="shiny-html-output"></div>
+<script>if (Tutorial.triggerMathJax) Tutorial.triggerMathJax()</script>
+</div>
+</div>
+</div>
+<div class="cell-output-display no-overflow-x">
+<div class="panel panel-default tutorial-question-container">
+<div data-label="names-3" class="tutorial-question panel-body">
+<div id="names-3-answer_container" class="shiny-html-output"></div>
+<div id="names-3-message_container" class="shiny-html-output"></div>
+<div id="names-3-action_button_container" class="shiny-html-output"></div>
+<script>if (Tutorial.triggerMathJax) Tutorial.triggerMathJax()</script>
+</div>
+</div>
+</div>
+</div>
+<p>
+<script type="application/shiny-prerendered" data-context="server-start">
+library(learnr)
+tutorial_options(exercise.timelimit = 60)
+</script>
+ 
+<script type="application/shiny-prerendered" data-context="server">
+learnr:::register_http_handlers(session, metadata = NULL)
+</script>
+ 
+<script type="application/shiny-prerendered" data-context="server">
+learnr:::prepare_tutorial_state(session)
+</script>
+ 
+<script type="application/shiny-prerendered" data-context="server">
+learnr:::i18n_observe_tutorial_language(input, session)
+</script>
+ 
+<script type="application/shiny-prerendered" data-context="server">
+session$onSessionEnded(function() {
+        learnr:::event_trigger(session, "session_stop")
+      })
+</script>
+ 
+<script type="application/shiny-prerendered" data-context="server">
+learnr:::question_prerendered_chunk(structure(list(type = "learnr_checkbox", label = "quiz1", question = structure("Check all that you have NOT done:", html = TRUE, class = c("html", 
+"character")), answers = list(structure(list(id = "lnr_ans_86c7161", 
+    option = "installed R on my computer", value = "installed R on my computer", 
+    label = structure("installed R on my computer", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = structure("<ul>\n<li>Install R<\u002fli>\n<\u002ful>\n", html = TRUE, class = c("html", 
+    "character")), type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_8880d74", 
+    option = "installed the RStudio IDE", value = "installed the RStudio IDE", 
+    label = structure("installed the RStudio IDE", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = structure("<ul>\n<li>Install RStudio IDE<\u002fli>\n<\u002ful>\n", html = TRUE, class = c("html", 
+    "character")), type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_5b3cbc2", 
+    option = "installed the tidyverse R package", value = "installed the tidyverse R package", 
+    label = structure("installed the tidyverse R package", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = structure("<ul>\n<li>Install Packages<\u002fli>\n<\u002ful>\n", html = TRUE, class = c("html", 
+    "character")), type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_9c2511a", 
+    option = "None of the above. I've done them all.", value = "None of the above. I've done them all.", 
+    label = structure("None of the above. I’ve done them all.", html = TRUE, class = c("html", 
+    "character")), correct = TRUE, message = structure("You can skip this tutorial!", html = TRUE, class = c("html", 
+    "character")), type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer"))), button_labels = list(submit = structure("<span data-i18n=\"button.questionsubmit\">Submit Answer<\u002fspan>", html = TRUE, class = c("html", 
+"character")), try_again = structure("<span data-i18n=\"button.questiontryagain\">Try Again<\u002fspan>", html = TRUE, class = c("html", 
+"character"))), messages = list(correct = structure("Correct!", html = TRUE, class = c("html", 
+"character")), try_again = structure("Incorrect. Be sure to select every correct answer.", html = TRUE, class = c("html", 
+"character")), incorrect = structure("This tutorial is here to help! To get set up read:", html = TRUE, class = c("html", 
+"character")), message = NULL, post_message = NULL), ids = list(
+    answer = "quiz1-answer", question = "quiz1"), loading = NULL, 
+    random_answer_order = FALSE, allow_retry = FALSE, seed = 266579567.875864, 
+    options = list()), class = c("learnr_checkbox", "tutorial_question"
+)), session = session)
+</script>
+ 
+<script type="application/shiny-prerendered" data-context="server">
+learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "quiz2-1", question = structure("Is R free to download and use?", html = TRUE, class = c("html", 
+"character")), answers = list(structure(list(id = "lnr_ans_3d11035", 
+    option = "Yes!", value = "Yes!", label = structure("Yes!", html = TRUE, class = c("html", 
+    "character")), correct = TRUE, message = structure("R is free <em>and<\u002fem> open source, which means that anyone can read, use, and copy the source code of the R language.", html = TRUE, class = c("html", 
+    "character")), type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_dea523e", 
+    option = "No.", value = "No.", label = structure("No.", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer"))), button_labels = list(submit = structure("<span data-i18n=\"button.questionsubmit\">Submit Answer<\u002fspan>", html = TRUE, class = c("html", 
+"character")), try_again = structure("<span data-i18n=\"button.questiontryagain\">Try Again<\u002fspan>", html = TRUE, class = c("html", 
+"character"))), messages = list(correct = structure("Correct!", html = TRUE, class = c("html", 
+"character")), try_again = structure("Incorrect", html = TRUE, class = c("html", 
+"character")), incorrect = structure("Incorrect", html = TRUE, class = c("html", 
+"character")), message = NULL, post_message = NULL), ids = list(
+    answer = "quiz2-1-answer", question = "quiz2-1"), loading = NULL, 
+    random_answer_order = FALSE, allow_retry = FALSE, seed = 485173985.774073, 
+    options = list()), class = c("learnr_radio", "tutorial_question"
+)), session = session)
+</script>
+ 
+<script type="application/shiny-prerendered" data-context="server">
+learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "quiz2-2", question = structure("Where do you download R?", html = TRUE, class = c("html", 
+"character")), answers = list(structure(list(id = "lnr_ans_202396f", 
+    option = "www.rstudio.com/download", value = "www.rstudio.com/download", 
+    label = structure("<a href=\"http://www.rstudio.com/download\">www.rstudio.com/download<\u002fa>", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_aa24cbf", 
+    option = "[cloud.r-project.org](http://cloud.r-project.org)", 
+    value = "[cloud.r-project.org](http://cloud.r-project.org)", 
+    label = structure("<a href=\"http://cloud.r-project.org\">cloud.r-project.org<\u002fa>", html = TRUE, class = c("html", 
+    "character")), correct = TRUE, message = structure("You can also download R from <a href=\"http://cran.r-project.org\">cran.r-project.org<\u002fa>", html = TRUE, class = c("html", 
+    "character")), type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_9de5c01", 
+    option = "www.r-project.org", value = "www.r-project.org", 
+    label = structure("<a href=\"http://www.r-project.org\">www.r-project.org<\u002fa>", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = structure("Good try, but not exactly. <a href=\"http://www.r-project.org\">www.r-project.org<\u002fa> doesn’t provide a download link, but it does provide a link to one the websites above.", html = TRUE, class = c("html", 
+    "character")), type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_439ae3f", 
+    option = "www.r.com", value = "www.r.com", label = structure("<a href=\"http://www.r.com\">www.r.com<\u002fa>", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer"))), button_labels = list(submit = structure("<span data-i18n=\"button.questionsubmit\">Submit Answer<\u002fspan>", html = TRUE, class = c("html", 
+"character")), try_again = structure("<span data-i18n=\"button.questiontryagain\">Try Again<\u002fspan>", html = TRUE, class = c("html", 
+"character"))), messages = list(correct = structure("Correct!", html = TRUE, class = c("html", 
+"character")), try_again = structure("Incorrect", html = TRUE, class = c("html", 
+"character")), incorrect = structure("Incorrect", html = TRUE, class = c("html", 
+"character")), message = NULL, post_message = NULL), ids = list(
+    answer = "quiz2-2-answer", question = "quiz2-2"), loading = NULL, 
+    random_answer_order = FALSE, allow_retry = TRUE, seed = 1785587887.16852, 
+    options = list()), class = c("learnr_radio", "tutorial_question"
+)), session = session)
+</script>
+ 
+<script type="application/shiny-prerendered" data-context="server">
+learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "quiz2-3", question = structure("How often should you update R?", html = TRUE, class = c("html", 
+"character")), answers = list(structure(list(id = "lnr_ans_5d3184d", 
+    option = "Everytime you use it", value = "Everytime you use it", 
+    label = structure("Everytime you use it", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = structure("This will be too often unless you use R very rarely!", html = TRUE, class = c("html", 
+    "character")), type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_b4196a0", 
+    option = "About once a year", value = "About once a year", 
+    label = structure("About once a year", html = TRUE, class = c("html", 
+    "character")), correct = TRUE, message = structure("A new version of R is released about once a year. Update sooner if you encounter a bug that you cannot explain.", html = TRUE, class = c("html", 
+    "character")), type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_713487b", 
+    option = "Never", value = "Never", label = structure("Never", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = structure("A new version of R is released about once a year. I’ll assume that you are using the newest version of R, which will be the fastest version with the fewest unexpected behaviors.", html = TRUE, class = c("html", 
+    "character")), type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer"))), button_labels = list(submit = structure("<span data-i18n=\"button.questionsubmit\">Submit Answer<\u002fspan>", html = TRUE, class = c("html", 
+"character")), try_again = structure("<span data-i18n=\"button.questiontryagain\">Try Again<\u002fspan>", html = TRUE, class = c("html", 
+"character"))), messages = list(correct = structure("Correct!", html = TRUE, class = c("html", 
+"character")), try_again = structure("Incorrect", html = TRUE, class = c("html", 
+"character")), incorrect = structure("Incorrect", html = TRUE, class = c("html", 
+"character")), message = NULL, post_message = NULL), ids = list(
+    answer = "quiz2-3-answer", question = "quiz2-3"), loading = NULL, 
+    random_answer_order = FALSE, allow_retry = TRUE, seed = 716984571.166128, 
+    options = list()), class = c("learnr_radio", "tutorial_question"
+)), session = session)
+</script>
+ 
+<script type="application/shiny-prerendered" data-context="server">
+learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "quiz3-1", question = structure("What is the RStudio IDE?", html = TRUE, class = c("html", 
+"character")), answers = list(structure(list(id = "lnr_ans_a03e64f", 
+    option = "An application that makes it easier to use R.", 
+    value = "An application that makes it easier to use R.", 
+    label = structure("An application that makes it easier to use R.", html = TRUE, class = c("html", 
+    "character")), correct = TRUE, message = structure("RStudio organizes your workspace and makes it easier to write, use, debug, and save R code. I highly recommend it and will rely on the RStudio IDE in several tutorials.", html = TRUE, class = c("html", 
+    "character")), type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_a1d1656", 
+    option = "An application that let's you use R without writing any code", 
+    value = "An application that let's you use R without writing any code", 
+    label = structure("An application that let’s you use R without writing any code", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = structure("And thank goodness! Code provides a reproducible record of your work, which is essential for data science.", html = TRUE, class = c("html", 
+    "character")), type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_7e130c5", 
+    option = "A spreadsheet program like Microsoft Excel.", value = "A spreadsheet program like Microsoft Excel.", 
+    label = structure("A spreadsheet program like Microsoft Excel.", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_7d8f3ac", 
+    option = "Another name for R", value = "Another name for R", 
+    label = structure("Another name for R", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = structure("R and RStudio are two separate things. R is a language, like English. Think of RStudio as a program that helps you use the language, kind of like how a word processing program helps you write in English.", html = TRUE, class = c("html", 
+    "character")), type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer"))), button_labels = list(submit = structure("<span data-i18n=\"button.questionsubmit\">Submit Answer<\u002fspan>", html = TRUE, class = c("html", 
+"character")), try_again = structure("<span data-i18n=\"button.questiontryagain\">Try Again<\u002fspan>", html = TRUE, class = c("html", 
+"character"))), messages = list(correct = structure("Correct!", html = TRUE, class = c("html", 
+"character")), try_again = structure("Incorrect", html = TRUE, class = c("html", 
+"character")), incorrect = structure("Incorrect", html = TRUE, class = c("html", 
+"character")), message = NULL, post_message = NULL), ids = list(
+    answer = "quiz3-1-answer", question = "quiz3-1"), loading = NULL, 
+    random_answer_order = FALSE, allow_retry = TRUE, seed = 287237352.366245, 
+    options = list()), class = c("learnr_radio", "tutorial_question"
+)), session = session)
+</script>
+ 
+<script type="application/shiny-prerendered" data-context="server">
+learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "quiz3-2", question = structure("Is the RStudio IDE free to download and use?", html = TRUE, class = c("html", 
+"character")), answers = list(structure(list(id = "lnr_ans_95e8a21", 
+    option = "Yes!", value = "Yes!", label = structure("Yes!", html = TRUE, class = c("html", 
+    "character")), correct = TRUE, message = structure("Like R, RStudio is free and open-source. There do exist professional versions of RStudio with enhanced features, but we will not rely on those features in these tutorials.", html = TRUE, class = c("html", 
+    "character")), type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_cc2a654", 
+    option = "No.", value = "No.", label = structure("No.", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = structure("Like R, RStudio is free and open-source. There do exist professional versions of RStudio with enhanced features, but we will not rely on those features in these tutorials.", html = TRUE, class = c("html", 
+    "character")), type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer"))), button_labels = list(submit = structure("<span data-i18n=\"button.questionsubmit\">Submit Answer<\u002fspan>", html = TRUE, class = c("html", 
+"character")), try_again = structure("<span data-i18n=\"button.questiontryagain\">Try Again<\u002fspan>", html = TRUE, class = c("html", 
+"character"))), messages = list(correct = structure("Correct!", html = TRUE, class = c("html", 
+"character")), try_again = structure("Incorrect", html = TRUE, class = c("html", 
+"character")), incorrect = structure("Incorrect", html = TRUE, class = c("html", 
+"character")), message = NULL, post_message = NULL), ids = list(
+    answer = "quiz3-2-answer", question = "quiz3-2"), loading = NULL, 
+    random_answer_order = FALSE, allow_retry = FALSE, seed = 1224841682.42964, 
+    options = list()), class = c("learnr_radio", "tutorial_question"
+)), session = session)
+</script>
+ 
+<script type="application/shiny-prerendered" data-context="server">
+learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "quiz3-3", question = structure("Where do you download RStudio?", html = TRUE, class = c("html", 
+"character")), answers = list(structure(list(id = "lnr_ans_141af31", 
+    option = "www.rstudio.com/download", value = "www.rstudio.com/download", 
+    label = structure("<a href=\"http://www.rstudio.com/download\">www.rstudio.com/download<\u002fa>", html = TRUE, class = c("html", 
+    "character")), correct = TRUE, message = structure("For these tutorials, download and install the RStudio Desktop Open Source License.", html = TRUE, class = c("html", 
+    "character")), type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_78867fc", 
+    option = "[cloud.r-project.org](http://cloud.r-project.org)", 
+    value = "[cloud.r-project.org](http://cloud.r-project.org)", 
+    label = structure("<a href=\"http://cloud.r-project.org\">cloud.r-project.org<\u002fa>", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = structure("This is where you download R, not RStudio.", html = TRUE, class = c("html", 
+    "character")), type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_ac371c3", 
+    option = "www.r-project.org", value = "www.r-project.org", 
+    label = structure("<a href=\"http://www.r-project.org\">www.r-project.org<\u002fa>", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_2cb0909", 
+    option = "[cran.rstudio.org](http://cran.rstudio.org)", value = "[cran.rstudio.org](http://cran.rstudio.org)", 
+    label = structure("<a href=\"http://cran.rstudio.org\">cran.rstudio.org<\u002fa>", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer"))), button_labels = list(submit = structure("<span data-i18n=\"button.questionsubmit\">Submit Answer<\u002fspan>", html = TRUE, class = c("html", 
+"character")), try_again = structure("<span data-i18n=\"button.questiontryagain\">Try Again<\u002fspan>", html = TRUE, class = c("html", 
+"character"))), messages = list(correct = structure("Correct!", html = TRUE, class = c("html", 
+"character")), try_again = structure("Incorrect", html = TRUE, class = c("html", 
+"character")), incorrect = structure("Incorrect", html = TRUE, class = c("html", 
+"character")), message = NULL, post_message = NULL), ids = list(
+    answer = "quiz3-3-answer", question = "quiz3-3"), loading = NULL, 
+    random_answer_order = FALSE, allow_retry = TRUE, seed = 1800787948.66144, 
+    options = list()), class = c("learnr_radio", "tutorial_question"
+)), session = session)
+</script>
+ 
+<script type="application/shiny-prerendered" data-context="server">
+learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "quiz3-4", question = structure("Do you need to install R if you already have RStudio?", html = TRUE, class = c("html", 
+"character")), answers = list(structure(list(id = "lnr_ans_2fb823a", 
+    option = "Yes.", value = "Yes.", label = structure("Yes.", html = TRUE, class = c("html", 
+    "character")), correct = TRUE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_afa3b17", 
+    option = "No.", value = "No.", label = structure("No.", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = structure("R does not come with RStudio; you need to install R separately.", html = TRUE, class = c("html", 
+    "character")), type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer"))), button_labels = list(submit = structure("<span data-i18n=\"button.questionsubmit\">Submit Answer<\u002fspan>", html = TRUE, class = c("html", 
+"character")), try_again = structure("<span data-i18n=\"button.questiontryagain\">Try Again<\u002fspan>", html = TRUE, class = c("html", 
+"character"))), messages = list(correct = structure("Correct!", html = TRUE, class = c("html", 
+"character")), try_again = structure("Incorrect", html = TRUE, class = c("html", 
+"character")), incorrect = structure("Incorrect", html = TRUE, class = c("html", 
+"character")), message = NULL, post_message = NULL), ids = list(
+    answer = "quiz3-4-answer", question = "quiz3-4"), loading = NULL, 
+    random_answer_order = FALSE, allow_retry = FALSE, seed = 1851855674.63766, 
+    options = list()), class = c("learnr_radio", "tutorial_question"
+)), session = session)
+</script>
+ 
+<script type="application/shiny-prerendered" data-context="server">
+learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "names-1", question = structure("What command do you use to install packages?", html = TRUE, class = c("html", 
+"character")), answers = list(structure(list(id = "lnr_ans_91fb7cb", 
+    option = "`library()`", value = "`library()`", label = structure("<code>library()<\u002fcode>", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = structure("We will see what <code>library()<\u002fcode> does later.", html = TRUE, class = c("html", 
+    "character")), type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_91c9bab", 
+    option = "`install.packages()`", value = "`install.packages()`", 
+    label = structure("<code>install.packages()<\u002fcode>", html = TRUE, class = c("html", 
+    "character")), correct = TRUE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_35eecb4", 
+    option = "`install_packages()`", value = "`install_packages()`", 
+    label = structure("<code>install_packages()<\u002fcode>", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_6cd3df2", 
+    option = "There is no command. You must visit [cran.r-project.org](http://cran.r-project.org) and download packages manually.", 
+    value = "There is no command. You must visit [cran.r-project.org](http://cran.r-project.org) and download packages manually.", 
+    label = structure("There is no command. You must visit <a href=\"http://cran.r-project.org\">cran.r-project.org<\u002fa> and download packages manually.", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = structure("R makes it easy to download packages. You connect to the internet and then run one of the commands above.", html = TRUE, class = c("html", 
+    "character")), type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer"))), button_labels = list(submit = structure("<span data-i18n=\"button.questionsubmit\">Submit Answer<\u002fspan>", html = TRUE, class = c("html", 
+"character")), try_again = structure("<span data-i18n=\"button.questiontryagain\">Try Again<\u002fspan>", html = TRUE, class = c("html", 
+"character"))), messages = list(correct = structure("Correct!", html = TRUE, class = c("html", 
+"character")), try_again = structure("Incorrect", html = TRUE, class = c("html", 
+"character")), incorrect = structure("Incorrect", html = TRUE, class = c("html", 
+"character")), message = NULL, post_message = NULL), ids = list(
+    answer = "names-1-answer", question = "names-1"), loading = NULL, 
+    random_answer_order = FALSE, allow_retry = TRUE, seed = 2129718016.00827, 
+    options = list()), class = c("learnr_radio", "tutorial_question"
+)), session = session)
+</script>
+ 
+<script type="application/shiny-prerendered" data-context="server">
+learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "names-2", question = structure("How often do you need to install a package on your computer?", html = TRUE, class = c("html", 
+"character")), answers = list(structure(list(id = "lnr_ans_80f1338", 
+    option = "Every time you restart R", value = "Every time you restart R", 
+    label = structure("Every time you restart R", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_63d3ea8", 
+    option = "Every time you restart your computer", value = "Every time you restart your computer", 
+    label = structure("Every time you restart your computer", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_2ec618d", 
+    option = "Only once. Afterwards, R can find it on your hard drive as needed.", 
+    value = "Only once. Afterwards, R can find it on your hard drive as needed.", 
+    label = structure("Only once. Afterwards, R can find it on your hard drive as needed.", html = TRUE, class = c("html", 
+    "character")), correct = TRUE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_19c16a7", 
+    option = "Never, as long as you are connected to the internet.", 
+    value = "Never, as long as you are connected to the internet.", 
+    label = structure("Never, as long as you are connected to the internet.", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = structure("This could be true if you are using R over a cloud service. However, if you are using R locally on your own computer, you will need to install each package that you use on your computer.", html = TRUE, class = c("html", 
+    "character")), type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer"))), button_labels = list(submit = structure("<span data-i18n=\"button.questionsubmit\">Submit Answer<\u002fspan>", html = TRUE, class = c("html", 
+"character")), try_again = structure("<span data-i18n=\"button.questiontryagain\">Try Again<\u002fspan>", html = TRUE, class = c("html", 
+"character"))), messages = list(correct = structure("Correct!", html = TRUE, class = c("html", 
+"character")), try_again = structure("Incorrect", html = TRUE, class = c("html", 
+"character")), incorrect = structure("Incorrect", html = TRUE, class = c("html", 
+"character")), message = NULL, post_message = NULL), ids = list(
+    answer = "names-2-answer", question = "names-2"), loading = NULL, 
+    random_answer_order = FALSE, allow_retry = TRUE, seed = 1418994995.33923, 
+    options = list()), class = c("learnr_radio", "tutorial_question"
+)), session = session)
+</script>
+ 
+<script type="application/shiny-prerendered" data-context="server">
+learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "names-3", question = structure("What is the tidyverse?", html = TRUE, class = c("html", 
+"character")), answers = list(structure(list(id = "lnr_ans_42e874b", 
+    option = "A collection of packages that work well together and provide tools for common data science tasks.", 
+    value = "A collection of packages that work well together and provide tools for common data science tasks.", 
+    label = structure("A collection of packages that work well together and provide tools for common data science tasks.", html = TRUE, class = c("html", 
+    "character")), correct = TRUE, message = structure("You can install all of the tidyverse packages at once with <code>install.packages(&quot;tidyverse&quot;)<\u002fcode>.", html = TRUE, class = c("html", 
+    "character")), type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_c079fec", 
+    option = "A word processing program for R", value = "A word processing program for R", 
+    label = structure("A word processing program for R", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_76ee8de", 
+    option = "A code style that reads like poetry", value = "A code style that reads like poetry", 
+    label = structure("A code style that reads like poetry", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_38b72c3", 
+    option = "An alternate universe where everyone is an R programmer.", 
+    value = "An alternate universe where everyone is an R programmer.", 
+    label = structure("An alternate universe where everyone is an R programmer.", html = TRUE, class = c("html", 
+    "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
+"tutorial_quiz_answer"))), button_labels = list(submit = structure("<span data-i18n=\"button.questionsubmit\">Submit Answer<\u002fspan>", html = TRUE, class = c("html", 
+"character")), try_again = structure("<span data-i18n=\"button.questiontryagain\">Try Again<\u002fspan>", html = TRUE, class = c("html", 
+"character"))), messages = list(correct = structure("Correct!", html = TRUE, class = c("html", 
+"character")), try_again = structure("Incorrect", html = TRUE, class = c("html", 
+"character")), incorrect = structure("Incorrect", html = TRUE, class = c("html", 
+"character")), message = NULL, post_message = NULL), ids = list(
+    answer = "names-3-answer", question = "names-3"), loading = NULL, 
+    random_answer_order = FALSE, allow_retry = TRUE, seed = 1305101130.89226, 
+    options = list()), class = c("learnr_radio", "tutorial_question"
+)), session = session)
+</script>
+ 
+<script type="application/shiny-prerendered" data-context="server-extras">
+ojs_define <- function(..., .session = shiny::getDefaultReactiveDomain()) {
+  quos <- rlang::enquos(...)
+  vars <- rlang::list2(...)
+  nm <- names(vars)
+  if (is.null(nm)) {
+    nm <- rep_len("", length(vars))
+  }
+  mapply(function(q, nm, val) {
+    # Infer name, if possible
+    if (nm == "") {
+      tryCatch({
+        nm <- rlang::as_name(q)
+      }, error = function(e) {
+        code <- paste(collapse = "\n", deparse(rlang::f_rhs(q)))
+        stop("ojs_define() could not create a name for the argument: ", code)
+      })
+    }
+    .session$output[[nm]] <- val
+    outputOptions(.session$output, nm, suspendWhenHidden = FALSE)
+    .session$sendCustomMessage("ojs-export", list(name = nm))
+    NULL
+  }, quos, nm, vars, SIMPLIFY = FALSE, USE.NAMES = FALSE)
+  invisible()
+}
+</script>
+</p>
+<!--html_preserve-->
+<script type="application/shiny-prerendered" data-context="dependencies">
+{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files","pkgVersion"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["jquery"]},{"type":"character","attributes":{},"value":["3.6.0"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["lib/3.6.0"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["jquery-3.6.0.min.js"]},{"type":"NULL"},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["jquerylib"]},{"type":"logical","attributes":{},"value":[true]},{"type":"character","attributes":{},"value":["0.1.4"]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files","pkgVersion"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["font-awesome"]},{"type":"character","attributes":{},"value":["6.4.2"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["fontawesome"]}]},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["css/all.min.css","css/v4-shims.min.css"]},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["fontawesome"]},{"type":"logical","attributes":{},"value":[true]},{"type":"character","attributes":{},"value":["0.5.2"]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files","pkgVersion"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["bootbox"]},{"type":"character","attributes":{},"value":["5.5.2"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["lib/bootbox"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["bootbox.min.js"]},{"type":"NULL"},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["learnr"]},{"type":"logical","attributes":{},"value":[true]},{"type":"character","attributes":{},"value":["0.11.5"]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files","pkgVersion"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["idb-keyvalue"]},{"type":"character","attributes":{},"value":["3.2.0"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["lib/idb-keyval"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["idb-keyval-iife-compat.min.js"]},{"type":"NULL"},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["learnr"]},{"type":"logical","attributes":{},"value":[false]},{"type":"character","attributes":{},"value":["0.11.5"]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files","pkgVersion"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["tutorial"]},{"type":"character","attributes":{},"value":["0.11.5"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["lib/tutorial"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["tutorial.js"]},{"type":"character","attributes":{},"value":["tutorial.css"]},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["learnr"]},{"type":"logical","attributes":{},"value":[true]},{"type":"character","attributes":{},"value":["0.11.5"]}]}]}
+</script>
+<!--/html_preserve-->
+<!--html_preserve-->
+<script type="application/shiny-prerendered" data-context="execution_dependencies">
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["packages"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["packages","version"]},"class":{"type":"character","attributes":{},"value":["data.frame"]},"row.names":{"type":"integer","attributes":{},"value":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43]}},"value":[{"type":"character","attributes":{},"value":["backports","base","checkmate","cli","commonmark","compiler","datasets","digest","ellipsis","evaluate","fastmap","fontawesome","graphics","grDevices","htmltools","htmlwidgets","httpuv","jquerylib","jsonlite","knitr","later","learnr","lifecycle","magrittr","markdown","methods","mime","promises","R6","Rcpp","renv","rlang","rmarkdown","rprojroot","rstudioapi","shiny","stats","tools","utils","withr","xfun","xtable","yaml"]},{"type":"character","attributes":{},"value":["1.5.0","4.4.1","2.3.2","3.6.3","1.9.2","4.4.1","4.4.1","0.6.37","0.3.2","0.24.0","1.2.0","0.5.2","4.4.1","4.4.1","0.5.8.1","1.6.4","1.6.15","0.1.4","1.8.8","1.48","1.3.2","0.11.5","1.0.4","2.0.3","1.13","4.4.1","0.12","1.3.0","2.5.1","1.0.13","1.0.7","1.1.4","2.28","2.0.4","0.16.0","1.9.1","4.4.1","4.4.1","4.4.1","3.0.1","0.47","1.8-4","2.3.10"]}]}]}
+</script>
+<!--/html_preserve-->
+
+
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
