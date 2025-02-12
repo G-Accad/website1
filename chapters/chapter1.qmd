@@ -78,19 +78,21 @@ Loops allow us to execute a block of code multiple times, reducing repetition an
 
 Below are examples of loops in R and Python:
 
-::: {.panel-tabset}
 
-### R
+
+# R
 
 ```{webr}
-for (x in 1:6) {
-  print(x * 2)
+for (x in 1:5) {
+  print(10 + x)
 }
 ```
 
+# Python
+
 ```{pyodide}
-for x in range(5):
-  print(x * 2)
+for x in range(1, 6):
+  print(10 + x)
 ```
 
-:::
+
