@@ -8,14 +8,82 @@ description: >
 toc: true  # Enable table of contents
 ---
 
-
 ## Welcome
 
-This is a demo tutorial. Compare it to the [source code](https://github.com/rstudio/learnr/tree/main/inst/tutorials/ex-setup-r/ex-setup-r.Rmd) that made it.
+This tutorial introduces both **R** and **Python** programming, covering fundamental topics such as data types, variables, operators, and loops. Use the tabs below to switch between R and Python content.
 
+::: {.panel-tabset}
+
+### R
+
+#### Data Types in R
+- **Integer**: Whole numbers (e.g., `42`, `-3`)
+- **Double/Floating Point**: Decimal numbers (e.g., `3.14`, `-2.718`)
+- **Character (String)**: Text in quotes (e.g., `"Hello World"`)
+- **Logical (Boolean)**: `TRUE`, `FALSE`
+- **Missing Values**: `NA`, `NaN`
+
+```r
+# Examples of Data Types in R
+x <- 42   # Integer
+y <- 3.14 # Floating point
+z <- "Hello, R!"  # String
+is_valid <- TRUE   # Boolean
+print(c(x, y, z, is_valid))
+```
+
+#### Variables in R
+```r
+a <- 10
+b <- 5
+c <- a + b  # Addition
+print(c)    # Output: 15
+```
+
+---
+
+### Python
+
+#### Data Types in Python
+- **Integer**: Whole numbers (`42`, `-3`)
+- **Float**: Decimal numbers (`3.14`, `-2.718`)
+- **String**: Text in quotes (`"Hello World"`)
+- **Boolean**: `True`, `False`
+
+```python
+# Examples of Data Types in Python
+x = 42   # Integer
+y = 3.14 # Float
+z = "Hello, Python!"  # String
+is_valid = True   # Boolean
+print(x, y, z, is_valid)
+```
+
+#### Variables in Python
+```python
+a = 10
+b = 5
+c = a + b  # Addition
+print(c)   # Output: 15
+```
+
+:::
+
+## Loops
+
+Loops allow us to execute a block of code multiple times, reducing repetition and making our programs more efficient. The two most common types of loops are:
+
+- **For loops**: Used when we know how many times we need to iterate.
+- **While loops**: Used when we repeat execution until a condition is met.
+
+Below are examples of loops in R and Python:
+
+::: {.panel-tabset}
+
+### R
 
 ```{webr}
-for (x in 1:5) {
+for (x in 1:6) {
   print(x * 2)
 }
 ```
@@ -24,3 +92,5 @@ for (x in 1:5) {
 for x in range(5):
   print(x * 2)
 ```
+
+:::

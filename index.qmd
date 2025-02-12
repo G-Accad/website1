@@ -26,17 +26,3 @@ for (x in 1:5) {
 for x in range(5):
   print(x * 2)
 ```
-
-## Schedule
-
--   23/10/2024: 9 am - 12 pm Grace Accad and Norbert Gyenge
-
--   30/10/2024: 9 am - 12 pm Grace Accad and Norbert Gyenge
-
--   22/01/2025: 9 am - 12 pm Mark Dunning
-
--   29/01/2025: 9 am - 12 pm Mark Dunning
-
--   05/02/2025: 9 am - 12 pm Grace Accad and Norbert Gyenge
-
--   12/02/2025: 9 am - 12 pm Grace Accad and Norbert Gyenge
